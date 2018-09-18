@@ -44,9 +44,19 @@ Please input experiment index...3
 ```
 ### Results
 - ##### DEC + GAN on MNIST
+Experiment 1
+![](https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/mnist-092.jpeg =250x)
+Experiment 2
+![](https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/mnist-069.jpeg)
  - ##### Modified CatGAN on FMNIST
+ ![](https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/acc_boost.png)
 - ##### Modified CatGAN + GAN on FMNIST
+ ![](https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/fmnist-073.jpg)
 - ##### IMSAT + GAN on SVHN
+ ![](https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/svhn-050.jpg)
  - ##### LearningByAssociation + GAN on SVHN
+  ![](https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/svhn-090.jpg)
  - ##### LearningByAssociation + GAN on CIFAR-10
+  ![](https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/cifar-gen.jpg)
 - ##### LearningByAssociation + GAN + VAEGAN on SVHN
+ ![](https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/vaegan-gen-3.jpg)
