@@ -45,7 +45,8 @@ Please input experiment index...3
 ### Results
 - ##### DEC + GAN on MNIST
 Experiment 1
-![](https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/mnist-092.jpeg =250x)
+<img src="https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/mnist-092.jpeg" width="500">
+
 Experiment 2
 ![](https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/mnist-069.jpeg)
  - ##### Modified CatGAN on FMNIST
