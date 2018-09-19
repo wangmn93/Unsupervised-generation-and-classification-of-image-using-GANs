@@ -1,8 +1,7 @@
-import my_utils
+
 import numpy as np
-from matplotlib import pyplot as plt
-# X,Y = my_utils.loadFullFashion_MNSIT(shift=False)
-#X, Y = my_utils.load_data('mnist')
+
+
 
 import scipy.io as sio
 train_data = sio.loadmat('../train_32x32.mat')

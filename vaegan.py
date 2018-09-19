@@ -11,7 +11,7 @@ from functools import partial
 
 import numpy as np
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 
 def add_salt_pepper_noise(X_imgs):
@@ -348,8 +348,8 @@ finally:
     code = np.load('cifar-encode-2.npy')
     # #todo
     imgs = sess.run(deco, feed_dict={code_ph:code[:64]})
-    plt.imshow(utils.immerge(imgs,8,8))
-    plt.show()
+    # plt.imshow(utils.immerge(imgs,8,8))
+    # plt.show()
 
     # t= np.array(t)
         # b = sess.run(z_mean, feed_dict={real: X[30000:60000]})

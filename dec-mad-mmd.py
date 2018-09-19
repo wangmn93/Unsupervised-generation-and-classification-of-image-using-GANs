@@ -7,17 +7,9 @@ import tensorflow as tf
 import models_mnist as models
 import datetime
 import my_utils
-from keras.models import model_from_json
 from functools import partial
-import data_mnist as data
-from sklearn import mixture
 import numpy as np
-import  theano.tensor as T
-from keras import backend as K
-import math
-from keras import objectives
-import matplotlib.pyplot as plt
-from sklearn.manifold import TSNE
+
 
 """ param """
 # epoch = 100
