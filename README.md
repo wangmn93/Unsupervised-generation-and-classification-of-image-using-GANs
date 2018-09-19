@@ -1,17 +1,16 @@
 # Unsupervised generation and classification of image using GANs
 D1254 Mengnan Wang
+
 ### Requirements
-- python==2.7
+- Python 2.7
 - numpy==1.14.3
-- Keras==1.2.2
-- matplotlib==2.0.0
-- tensorflow_gpu==1.4.0
-- Theano==1.0.0
 - six==1.11.0
+- tensorflow_gpu==1.4.0
+- Keras==1.2.2
 - Pillow==5.2.0
 - scipy==1.1.0
 - scikit_learn==0.19.2
-- tensorflow==1.10.1
+
 ### Weights and dataset
 Please download the pre-trained weights for clustering model and dataset from
 [Google Drive](https://drive.google.com/drive/folders/18YN_xTWmGUOT0XZDltu6mjVz66Xt_GFw?usp=sharing) and place the folders in this dictionary
