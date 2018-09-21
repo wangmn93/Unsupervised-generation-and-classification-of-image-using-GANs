@@ -18,7 +18,7 @@ Please download the pre-trained weights for clustering model and dataset from
 ### Run
 Run `run_experiment.py` and select experiment index. The tensorboard file, checkpoint file and sampled images will be stored in `results` folder
 ```
->>> python run_experiment
+>>> python run_experiment.py
 >>>
 +--------------------------------------------------------------------------+
 |  __  __                                                                  |
