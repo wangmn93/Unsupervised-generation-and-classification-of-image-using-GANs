@@ -43,19 +43,23 @@ Please input experiment index...3
 ```
 ### Results
 - DEC + GAN on MNIST
-
+<div>
 <img src="https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/mnist-092.jpeg" width="300">
 
 <img src="https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/mnist-069.jpeg" width="300">
+</div>
  - Modified CatGAN on FMNIST
  <img src="https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/acc_boost.png" width="300">
 - Modified CatGAN + GAN on FMNIST
 <img src="https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/fmnist-073.jpg" width="300">
 - IMSAT + GAN on SVHN
 <img src="https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/svhn-050.jpg" width="300">
- - LearningByAssociation + GAN on SVHN
+ - LearningByAssociation + GAN on MNIST / FMNIST / SVHN / CIFAR-10
+<div>
+<img src="https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/mnist-099.jpg" width="300">
+<img src="https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/fmnist-090.jpg" width="300">
  <img src="https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/svhn-090.jpg" width="300">
- - LearningByAssociation + GAN on CIFAR-10
  <img src="https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/cifar-gen.jpg" width="300">
+</div>
 - LearningByAssociation + GAN + VAEGAN on SVHN
 <img src="https://github.com/wangmn93/Unsupervised-generation-and-classification-of-image-using-GANs/blob/master/experiments_results/vaegan-gen-3.jpg" width="300">
