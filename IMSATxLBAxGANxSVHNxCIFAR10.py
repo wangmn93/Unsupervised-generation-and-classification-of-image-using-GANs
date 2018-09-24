@@ -35,7 +35,12 @@ def experiment(name,data_func, init_w):
     # generator = partial(models.mgan_gen, heads=1)
     # discriminator = partial(models.mgan_dis, name='d_2')
 
-    generator = partial(models.generator_m2_32X32, heads=10)
+    # generator_ = partial(models.generator_m2_32X32, heads=1)
+    def generator(z,training=True, reuse=True, heads =10):
+        imgs = []
+        for i in range(heads):
+            imgs += models.generator_m2_32X32(z=z, training=training, reuse=reuse, name='generator'+str(i), heads=1)
+        return imgs
 
     discriminator = partial(models.discriminator2, name='d_2')
     # encoder = partial(models.cnn_discriminator, out_dim = 10)
@@ -215,6 +220,6 @@ def run(exp):
 
 
 if __name__ == '__main__':
-    run('imsat-svhn')
-    run('lba-svhn')
+    # run('imsat-svhn')
+    # run('lba-svhn')
     run('lba-cifar-10')
